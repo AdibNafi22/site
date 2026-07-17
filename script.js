@@ -1,6 +1,4 @@
-// ===========================
-// ASSUNTOS GERAIS - SECRETARIA IFMT
-// ===========================
+
 
 const assuntos = [
 
