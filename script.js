@@ -1389,6 +1389,101 @@ Após revisar todas as informações, clique em <strong>Salvar</strong> para fin
 
 `
 },
+{
+    id:16,
+    titulo:"Projetos Pedagógicos dos Cursos (PPC)",
+    descricao:"Consulte o Projeto Pedagógico do seu curso.",
+    palavras:["ppc","projeto pedagógico","curso","matriz","currículo","ementa"],
+    conteudo:`
+
+<h2>Projetos Pedagógicos dos Cursos (PPC)</h2>
+
+<div class="tutorial">
+
+<div class="passo">
+
+<h3>Selecione o curso</h3>
+
+<p>
+Clique no botão correspondente ao seu curso para visualizar o Projeto Pedagógico (PPC).
+</p>
+
+<h4>Agronomia Noturno (AGN)</h4>
+
+<p>
+<a class="botao-pdf" href="img/PPC AGN 2019-202.pdf" target="_blank">
+PPC AGN 2019-2020
+</a>
+</p>
+
+<p>
+<a class="botao-pdf" href="img/PPC AGN 2023.pdf" target="_blank">
+PPC AGN 2023
+</a>
+</p>
+
+<h4>Agronomia Integral (AGI)</h4>
+
+<p>
+<a class="botao-pdf" href="img/ppc AGI 2012.pdf" target="_blank">
+PPC AGI 2012
+</a>
+</p>
+
+<p>
+<a class="botao-pdf" href="img/ppc AGI 2021.pdf" target="_blank">
+PPC AGI 2021
+</a>
+</p>
+
+<h4>Tecnologia em Análise e Desenvolvimento de Sistemas (TADS)</h4>
+
+<p>
+<a class="botao-pdf" href="img/ppc TADS 2007.pdf" target="_blank">
+PPC TADS 2007
+</a>
+</p>
+
+<p>
+<a class="botao-pdf" href="img/ppc tads 2016.pdf" target="_blank">
+PPC TADS 2016
+</a>
+</p>
+
+<p>
+<a class="botao-pdf" href="img/PPC TADS 2021 2025.pdf" target="_blank">
+PPC TADS 2021-2025
+</a>
+</p>
+
+<h4>Técnico em Informática</h4>
+
+<p>
+<a class="botao-pdf" href="img/ppc TI 2022.pdf" target="_blank">
+PPC TI 2022
+</a>
+</p>
+
+<p>
+<a class="botao-pdf" href="img/ppc ti 2026.pdf" target="_blank">
+PPC TI 2026
+</a>
+</p>
+
+<h4>Técnico em Agricultura</h4>
+
+<p>
+<a class="botao-pdf" href="img/ppc TA.pdf" target="_blank">
+PPC Técnico em Agricultura
+</a>
+</p>
+
+</div>
+
+</div>
+
+`
+},
 ];
 
 // =======================
@@ -1586,9 +1681,7 @@ botaoTema.onclick=()=>{
 
 }
 
-// ================================
-// BOTÃO VOLTAR AO TOPO
-// ================================
+
 
 const topo=document.getElementById("topo");
 
@@ -1620,9 +1713,6 @@ topo.onclick=()=>{
 
 }
 
-// ================================
-// ANIMAÇÃO DOS CARDS
-// ================================
 
 function animarCards(){
 
@@ -1650,7 +1740,7 @@ function animarCards(){
 
 animarCards();
 
-// Sempre que pesquisar
+
 
 const criarOriginal=criarCards;
 
