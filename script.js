@@ -1555,6 +1555,37 @@ A solicitação de aproveitamento de estudos deve ser realizada <strong>dentro d
 </div>
 
 `
+}, 
+{
+    id:18,
+    titulo:"Calendário Acadêmico",
+    descricao:"Consulte o Calendário Acadêmico vigente.",
+    palavras:["calendário","calendario","acadêmico","datas","prazos","semestre"],
+    conteudo:`
+
+<h2>Calendário Acadêmico</h2>
+
+<div class="tutorial">
+
+<div class="passo">
+
+<h3>Consulte o Calendário Acadêmico</h3>
+
+<p>
+Clique no botão abaixo para visualizar o Calendário Acadêmico vigente e consultar os prazos, datas importantes e períodos letivos.
+</p>
+
+<p>
+<a class="botao-pdf" href="https://drive.google.com/file/d/1DAiV0XSEav1GHFGQJye_nJw0oIEPyGH0/view" target="_blank">
+Calendário Acadêmico
+</a>
+</p>
+
+</div>
+
+</div>
+
+`
 },
 ];
 
